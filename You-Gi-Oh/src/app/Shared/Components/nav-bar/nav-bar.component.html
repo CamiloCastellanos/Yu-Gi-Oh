@@ -1,1 +1,27 @@
-<p>nav-bar works!</p>
+<mat-toolbar>
+    <mat-toolbar-row>
+        <button mat-icon-button aria-label="Example icon-button with menu icon">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>You Gi Oh</span>
+    </mat-toolbar-row>
+
+    <mat-toolbar-row>
+        <span>Follow us: </span>
+        <span class="example-spacer"> </span>
+        <a mat-button aria-label="GitHub Camilo Castellanos">
+            <mat-icon>device_hub</mat-icon>
+            <span>GitHub</span>
+        </a>
+
+        <a mat-button aria-label="Link YGOPRODeck" href="https://ygoprodeck.com/" target="_blank">
+            <mat-icon>favorite_border</mat-icon>
+            <span>YGOPRODeck</span>
+        </a>
+
+        <a mat-button aria-label="Link YuGiOhPrices" href="https://yugiohprices.com/" target="_blank">
+            <mat-icon>favorite_border</mat-icon>
+            <span>YuGiOhPrices</span>
+        </a>
+    </mat-toolbar-row>
+</mat-toolbar>
