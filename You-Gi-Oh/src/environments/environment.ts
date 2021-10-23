@@ -3,8 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  dbCard: "https://db.ygoprodeck.com/api/v7/",
+  dbCardRandom: "randomcard.php",
+  dbCardInfo: "cardinfo.php",
+  dbCardSetInfo:"cardsetsinfo.php",
+  dbPrice: "http://yugiohprices.com/api/"
 };
+
+/*
+https://yugiohprices.docs.apiary.io/#reference/checking-card-prices
+*/
 
 /*
  * For easier debugging in development mode, you can import the following file
